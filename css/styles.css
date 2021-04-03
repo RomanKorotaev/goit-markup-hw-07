@@ -100,28 +100,8 @@ header {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ============= END COMPONENTS ============= */
-
-/* ============= HEADER ============= */
-.header {
-  display: flex;
-  align-items: center;
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
-.navigation-list {
-  display: flex;
-  align-items: center;
-  margin-left: 93px;
+.base-btm:hover {
+  background: var(--btm-hover);
 }
 
 .logo {
@@ -142,19 +122,43 @@ header {
   color: var(--accent-color);
 }
 
-.logo-studio-header {
+/* ============= END COMPONENTS ============= */
+
+/* ============= HEADER ============= */
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.logo--ligt-theme {
   color: var(--header-color);
 }
 
-.logo-studio-footer {
+.logo--dark-theme {
   color: var(--white-color);
 }
 
-.navigation-item:not(:last-child) {
+.nav-list--item:not(:last-child) {
   margin-right: 50px;
 }
 
-.navigation-links {
+.nav-list__links {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -168,12 +172,10 @@ header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-links:hover,
-.navigation-links:focus {
+.nav-list__links:hover,
+.nav-list__links:focus {
   color: var(--accent-color);
 }
-/* Это пример дочернего селектора (пример для себя)
-/*.navigation-links > .current*/
 
 .current {
   position: relative;
@@ -220,13 +222,13 @@ header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-links-icon {
+.contact-links__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.header-contacts-icon svg:hover,
-.header-contacts-icon svg:focus,
+.header-contacts__icon svg:hover,
+.header-contacts__icon svg:focus,
 .contact-links:hover,
 .contact-links:focus {
   fill: var(--accent-color);
