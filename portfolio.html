@@ -15,82 +15,43 @@
 </head>
 <body>
     <!--Это шапка страницы-->
-    <!--
     <header class="header">
         <div class="container">
             <nav class="navigation">
-                <a class="link logo" href="./index.html">Web<span class="logo logo--ligt-theme">Studio </span></a>
-                <ul class="list navigation-list">
-                    <li class="navigation-item"> <a class="link navigation-links" href="./index.html">Студия</a></li>
-                    <li class="navigation-item"> <a class="link current navigation-links" href="#">Портфолио</a></li>
-                    <li class="navigation-item"> <a class="link navigation-links" href="#">Контакты</a></li>
+                <a class="link logo animate__tada" href="./index.html">Web<span class="logo logo--ligt-theme">Studio </span></a>
+                <ul class="list nav-list">
+                    <li class="nav-list--item"> <a class="link nav-list__links" href="./index.html">Студия</a></li>
+                    <li class="nav-list--item"> <a class="link current nav-list__links" href="#">Портфолио</a></li>
+                    <li class="nav-list--item"> <a class="link nav-list__links" href="#">Контакты</a></li>
                 </ul>
             </nav>
     
-            <ul class="list navigation-list header-contacts">
-                <li class="navigation-item ">
-                    <a class="link contact-links header-contacts-icon" href="info@devstudio.com">
-                        <svg width="16" height="10" class="contact-links-icon">
+            <ul class="list nav-list header-contacts">
+                <li class="nav-list--item ">
+                    <a class="link contact-links header-contacts__icon" href="info@devstudio.com">
+                        <svg width="16" height="10" class="contact-links__icon">
                             <use href="./images/symbol-defs.svg#envelope-1"></use>
                         </svg>
-            
+    
                         info@devstudio.com
                     </a>
-            
+    
                 </li>
-            
-                <li class="navigation-item">
-                    <a class="link contact-links header-contacts-icon" href="tel:+380961111111">
-                        <svg width="10" height="16" class="contact-links-icon">
+    
+                <li class="nav-list--item">
+                    <a class="link contact-links header-contacts__icon" href="tel:+380961111111">
+                        <svg width="10" height="16" class="contact-links__icon">
                             <use href="./images/symbol-defs.svg#smartphone"></use>
                         </svg>
-            
+    
                         +38 096 111 11 11
                     </a>
                 </li>
             </ul>
         </div>
+    
+    
     </header>
--->
-
-<header class="header">
-    <div class="container">
-        <nav class="navigation">
-            <a class="link logo" href="./index.html">Web<span class="logo logo--ligt-theme">Studio </span></a>
-            <ul class="list nav-list">
-                <li class="nav-list__item"> <a class="link nav-list__links" href="./index.html">Студия</a></li>
-                <li class="nav-list__item"> <a class="link current nav-list__links" href="#">Портфолио</a></li>
-                <li class="nav-list__item"> <a class="link nav-list__links" href="./portfolio.html">Портфолио</a></li>
-                <li class="nav-list__item"> <a class="link nav-list__links" href="#">Контакты</a></li>
-            </ul>
-        </nav>
-
-        <ul class="list nav-list header-contacts">
-            <li class="nav-list__item ">
-                <a class="link contact-links header-contacts-icon" href="info@devstudio.com">
-                    <svg width="16" height="10" class="contact-links-icon">
-                        <use href="./images/symbol-defs.svg#envelope-1"></use>
-                    </svg>
-
-                    info@devstudio.com
-                </a>
-
-            </li>
-
-            <li class="nav-list__item">
-                <a class="link contact-links header-contacts-icon" href="tel:+380961111111">
-                    <svg width="10" height="16" class="contact-links-icon">
-                        <use href="./images/symbol-defs.svg#smartphone"></use>
-                    </svg>
-
-                    +38 096 111 11 11
-                </a>
-            </li>
-        </ul>
-    </div>
-
-
-</header>
     <!-- Это основной уникальный контен данной страницы-->
     <main>
 
@@ -314,7 +275,7 @@
                         <input class="email-input-footer" type="email" name="user-mail-in-footer" placeholder="E-mail">
     
                         <button class="base-btm base-btm--subscribe-btm" type="submit">Подписаться
-                            <svg width="24" height="24" class="contact-links-icon">
+                            <svg width="24" height="24" class="contact-links__icon">
                                 <use href="./images/symbol-defs.svg#icon-send"></use>
                             </svg>
                         </button>
