@@ -554,25 +554,25 @@ header {
   margin-bottom: 50px;
 }
 
-.what-we-do-section {
+.what-we-do {
   padding-bottom: var(--padding-value);
 }
 
-.what-we-do-list {
+.what-we-do__list {
   display: flex;
   margin-left: -30px;
 
   /*z-index: 1;*/
 }
 
-.what-we-do-item {
+.what-we-do__item {
   position: relative;
 
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
-.what-we-do-title-wrapper {
+.what-we-do__title--wrapper {
   position: absolute;
   bottom: 0;
 
@@ -587,7 +587,7 @@ header {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.what-we-do-title {
+.what-we-do__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
