@@ -8,13 +8,6 @@
   }
 }
 
-/*
-.header .container {
-  display: flex;
-  align-items: center;
-}
-*/
-
 .navigation {
   display: flex;
   align-items: center;
@@ -76,10 +69,11 @@
     align-items: center;
   }
 
-      &__icon svg:hover,
-      &__icon svg:focus {
-      fill: var(--accent-color);
-      color: var(--accent-color);
+  &__icon svg:hover,
+  &__icon svg:focus {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 
 .contact-links {

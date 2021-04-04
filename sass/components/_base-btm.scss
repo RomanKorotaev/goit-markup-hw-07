@@ -28,4 +28,15 @@
   &--subscribe-btm svg {
     margin-left: 10px;
   }
+
+  &--order-service-btm {
+    margin: 0 auto;
+    padding: 10px 32px;
+
+    &:hover,
+    &:focus {
+      color: var(--white-color);
+      background: var(--btm-hover);
+    }
+  }
 }

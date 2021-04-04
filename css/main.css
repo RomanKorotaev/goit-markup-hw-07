@@ -107,6 +107,16 @@ header {
   margin-left: 10px;
 }
 
+.base-btm--order-service-btm {
+  margin: 0 auto;
+  padding: 10px 32px;
+}
+
+.base-btm--order-service-btm:hover, .base-btm--order-service-btm:focus {
+  color: var(--white-color);
+  background: var(--btm-hover);
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -197,12 +207,6 @@ header {
   align-items: center;
 }
 
-/*
-.header .container {
-  display: flex;
-  align-items: center;
-}
-*/
 .navigation {
   display: flex;
   align-items: center;
@@ -260,6 +264,12 @@ header {
   align-items: center;
 }
 
+.header-contacts__icon svg:hover,
+.header-contacts__icon svg:focus {
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
+
 .contact-links {
   font-weight: 500;
   font-size: 14px;
@@ -283,27 +293,6 @@ header {
   color: var(--accent-color);
 }
 
-/*
-.contact-links__icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-*/
-/*
-.header-contacts__icon svg:hover,
-.header-contacts__icon svg:focus,
-.contact-links:hover,
-.contact-links:focus {
-  fill: var(--accent-color);
-  color: var(--accent-color);
-}
-
-*/
-/*
-.current {
-  color: var(--accent-color);
-}
-*/
 .hero-backgr {
   background: var(--dark-backgr);
   max-width: 1600px;
@@ -331,17 +320,6 @@ header {
   margin-bottom: 30px;
 }
 
-.base-btm--order-service-btm {
-  margin: 0 auto;
-  padding: 10px 32px;
-}
-
-.base-btm--order-service-btm:hover,
-.base-btm--order-service-btm:focus {
-  color: var(--white-color);
-  background: var(--btm-hover);
-}
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -356,10 +334,9 @@ header {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  /*transform: translate(-10%, -10%);*/
 }
 
-.backdrop.is-hidden .modal {
+.backdrop.is-hidden.modal {
   transform: translate(-50%, -50%) scale(0.1);
 }
 
