@@ -1,0 +1,16 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  animation-duration: 3000ms;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
