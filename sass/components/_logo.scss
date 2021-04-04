@@ -12,4 +12,12 @@
   &:focus {
     color: var(--accent-color);
   }
+
+  &--ligt-theme {
+    color: var(--header-color);
+  }
+
+  &--dark-theme {
+    color: var(--white-color);
+  }
 }
