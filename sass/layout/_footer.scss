@@ -37,33 +37,15 @@ footer {
   padding-bottom: 9px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-contacts:hover,
-.footer-contacts:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .social-links {
   display: flex;
-}
-
-.social-list__link--dark {
-  box-sizing: border-box;
-  flex-basis: calc(100% / 4 - 10px);
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.social-list__icon--white {
-  fill: var(--white-color);
-}
-
-.social-list__link--footer + .social-list__link--footer {
-  margin-left: 10px;
-}
-
-.mailing {
-  margin-left: 93px;
 }
 
 .join {
@@ -78,53 +60,44 @@ footer {
   color: var(--white-color);
 }
 
-.mailing--wrapper {
-  display: flex;
-}
+.mailing {
+  margin-left: 93px;
 
-.mailing__input {
-  width: 358px;
-  height: 50px;
+  &--wrapper {
+    display: flex;
+  }
 
-  background: #2f303a;
+  &__input {
+    width: 358px;
+    height: 50px;
 
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
+    background: #2f303a;
 
-  margin-right: 12px;
-}
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
 
-.mailing__input::placeholder {
-  font-family: inherit;
-  font-size: 12px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  padding: 15px 16px;
+    margin-right: 12px;
 
-  color: rgba(255, 255, 255, 0.6);
-}
+    &::placeholder {
+      font-family: inherit;
+      font-size: 12px;
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+      padding: 15px 16px;
 
-.mailing__input:focus {
-  color: var(--white-color);
-  padding: 15px 16px;
-}
+      color: rgba(255, 255, 255, 0.6);
+    }
 
-.mailing__input:not(:placeholder-shown) {
-  color: var(--white-color);
-  padding: 15px 16px;
-}
+    &:focus {
+      color: var(--white-color);
+      padding: 15px 16px;
+    }
 
-.base-btm--subscribe-btm {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 200px;
-  height: 50px;
-}
-
-.base-btm--subscribe-btm svg {
-  margin-left: 10px;
+    &:not(:placeholder-shown) {
+      color: var(--white-color);
+      padding: 15px 16px;
+    }
+  }
 }
