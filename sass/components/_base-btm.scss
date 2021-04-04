@@ -39,4 +39,16 @@
       background: var(--btm-hover);
     }
   }
+
+  &--modal-submit-btm {
+    line-height: 1.76;
+    align-self: center;
+
+    padding: 10px 50px;
+  }
+
+  &--modal-submit-btm:hover,
+  &--modal-submit-btm:focus {
+    background: var(--btm-hover);
+  }
 }
