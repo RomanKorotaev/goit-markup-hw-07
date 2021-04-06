@@ -61,11 +61,11 @@ body {
   color: var(--content-color);
 }
 
-header {
+/*header {
   background: var(--white-color);
   border-bottom: 1px solid var(--header-line);
 }
-
+*/
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -205,6 +205,11 @@ header {
   letter-spacing: 0.03em;
   color: var(--header-color);
   margin-bottom: 50px;
+}
+
+header {
+  background: var(--white-color);
+  border-bottom: 1px solid var(--header-line);
 }
 
 .header {
